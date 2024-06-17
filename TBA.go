@@ -103,9 +103,11 @@ func O(x string) bool {
 		}
 	} else if len(x) >= 1 && x[0] == 'b' {
 		if len(x) >= 2 && x[1] == 'a' {
-			if len(x) >= 3 && x[2] == 's' {
-				if len(x) >= 4 && x[3] == 'o' {
-					return true
+			if len(x) >= 3 && x[2] == 'k' {
+				if len(x) >= 4 && x[3] == 's' {
+					if len(x) >= 5 && x[4] == 'o' {
+						return true
+					}
 				}
 			}
 		}
